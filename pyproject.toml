@@ -1,0 +1,25 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "grounded-rag"
+version = "0.1.0"
+description = "RAG over company documents that answers with citations or refuses when there is no evidence."
+readme = "README.md"
+license = { text = "MIT" }
+authors = [{ name = "Jorge Fraile Pereira" }]
+requires-python = ">=3.11"
+dependencies = ["fastapi>=0.110", "uvicorn>=0.27", "sqlite-vec>=0.1.6"]
+
+[project.optional-dependencies]
+dense = ["fastembed>=0.3"]
+llm = ["anthropic>=0.40"]
+dev = ["pytest>=8", "httpx>=0.27"]
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+pythonpath = ["src"]

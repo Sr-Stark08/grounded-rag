@@ -1,0 +1,15 @@
+{"q": "¿Cada cuánto se reponen los guantes?", "expected": ["epp"]}
+{"q": "¿Cuál es el stock mínimo de cemento?", "expected": ["bodega"]}
+{"q": "¿Cuándo se hace el inventario físico?", "expected": ["bodega"]}
+{"q": "¿Quién autoriza el retiro de materiales de bodega?", "expected": ["bodega"]}
+{"q": "¿Cada cuántos kilómetros se hace la mantención de los camiones?", "expected": ["maquinaria"]}
+{"q": "¿Puede circular un camión con falla en los frenos?", "expected": ["maquinaria"]}
+{"q": "¿Con cuánta anticipación se piden las vacaciones?", "expected": ["rrhh"]}
+{"q": "¿En qué plazo se entregan las licencias médicas?", "expected": ["rrhh"]}
+{"q": "¿Qué compras necesitan aprobación del gerente de operaciones?", "expected": ["compras"]}
+{"q": "¿Cuántas cotizaciones se piden para una compra grande?", "expected": ["compras"]}
+{"q": "¿Es obligatorio usar casco en la obra?", "expected": ["epp"]}
+{"q": "¿Cómo se registra la carga de combustible?", "expected": ["maquinaria"]}
+{"q": "¿Cuál es el precio del dólar hoy?", "expected": []}
+{"q": "¿Quién ganó el último partido de fútbol?", "expected": []}
+{"q": "¿Cuál es la contraseña del wifi de la oficina?", "expected": []}
